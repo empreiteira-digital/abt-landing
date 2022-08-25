@@ -3,5 +3,62 @@
 @tailwind utilities;
 
 body {
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
+}
+
+:root {
+  --purple: #523d7f;
+  --green: #c1dc56;
+}
+
+.custom-hr {
+  margin: 0 auto;
+  width: 10%;
+  border: 1px solid var(--green);
+}
+
+.white-title {
+  font-weight: 700;
+  @apply text-4xl text-center mb-6 text-white;
+}
+
+.inside--title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: var(--purple);
+  @apply text-4xl text-center mb-6;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 5rem
+}
+
+.collapse-section {
+  margin-top: 3rem;
+}
+
+.inside--collapse-title {
+  background-color: var(--purple);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+
+  @apply flex items-center justify-between w-full py-7 px-10 font-medium text-left rounded-lg my-8 text-white;
+}
+
+#inside {
+  @apply pt-24 pb-44;
+}
+
+#questions {
+  background: rgb(82,61,127);
+  background: linear-gradient(90deg, rgba(82,61,127,1) 0%, rgba(82,61,127,1) 30%, rgba(48,67,100,1) 100%);
+  @apply pt-24 pb-32;
+}
+
+.collapse-title {
+  color: var(--purple);
+  font-size: 1.5rem;
+  @apply flex items-center justify-center w-full py-7 px-10 font-medium rounded-lg my-8 bg-white;
 }
