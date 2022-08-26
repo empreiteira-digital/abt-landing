@@ -24,11 +24,11 @@ const InsideTheCourse = () => {
 
   return (
     <section id="inside">
-      <h2 className="inside--title">Por dentro do curso</h2>
+      <h2 className="title">Por dentro do curso</h2>
       <hr className="custom-hr" />
       <div
         id="accordion-collapse"
-        className="container collapse-section"
+        className="collapse-section"
         data-accordion="collapse"
       >
         {steps.map((step) => (

@@ -46,7 +46,7 @@ const FrequentAskedQuestions = () => {
       <h2 className="white-title">FAQ</h2>
       <div
         id="accordion-collapse"
-        className="container collapse-section"
+        className="collapse-section"
         data-accordion="collapse"
       >
         {questions.map((question) => (
