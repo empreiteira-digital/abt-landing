@@ -50,7 +50,7 @@ const InsideTheCourse = () => {
               className="hidden"
               aria-labelledby={`accordion-collapse-heading-${step.id}`}
             >
-              <div className="p-5 font-light border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+              <div className="inside--accordion-expanded">
                 <p className="mb-2 text-gray-500 dark:text-gray-400">
                   {step.description}
                 </p>

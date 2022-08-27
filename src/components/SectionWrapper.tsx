@@ -1,8 +1,9 @@
 import Testimonial from '@/components/Testimonial'
+// import WhySection from '@/components/WhySection'
 
 const SectionWrapper = () => {
   return (
-    <section className="wrapper">
+    <section className="middle-section-wrapper">
       <Testimonial />
     </section>
   )
