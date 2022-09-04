@@ -4,7 +4,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-attachment: fixed;
   background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  @apply bg-header;
 }
 
 :root {
@@ -16,6 +20,12 @@ body {
   margin: 0 auto;
   width: 10%;
   border: 1px solid var(--green);
+}
+
+.bold-hr {
+  margin: 0 auto;
+  width: 20%;
+  border: 4px solid var(--green);
 }
 
 .white-title {
@@ -62,6 +72,7 @@ body {
 }
 
 #inside {
+  background-color: #fff;
   @apply pt-24 pb-44;
 }
 
@@ -86,11 +97,6 @@ body {
 .collapse-title {
   color: var(--purple);
   @apply flex items-center justify-center w-full py-4 md:py-7 px-10 font-medium rounded-lg my-4 md:my-8 bg-white text-sm md:text-2xl;
-}
-
-.middle-section-wrapper {
-  background-attachment: fixed;
-  @apply bg-first;
 }
 
 /* Testimonials */
@@ -145,6 +151,7 @@ body {
   &--section {
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fff;
     @apply bg-about py-10;
   }
 
@@ -174,6 +181,7 @@ body {
   &--section {
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #fff;
     @apply bg-footer py-10;
   }
 
@@ -184,9 +192,7 @@ body {
 
 .header {
   &--section {
-    background-repeat: no-repeat;
-    background-size: cover;
-    @apply bg-header py-10;
+    @apply py-10;
   }
 
   &--wrapper {
@@ -216,5 +222,69 @@ body {
     p {
       @apply text-2xl;
     }
+  }
+}
+
+.version {
+  &--section {
+    background: rgb(82,61,127);
+    background-image: url('/bg-version.png'), linear-gradient(90deg, rgba(82,61,127,1) 0%, rgba(82,61,127,1) 30%, rgba(48,67,100,1) 100%);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    @apply py-28;
+  }
+
+  &--wrapper {
+    @apply flex flex-col justify-center items-center gap-12;
+
+    h3,
+    p {
+      @apply text-white;
+    }
+
+    h3 {
+      @apply text-3xl font-semibold mb-6;
+    }
+
+    p {
+      @apply text-lg md:mb-24;
+    }
+  }
+
+  &--image {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+.checkout {
+  &--wrapper {
+    @apply flex flex-col items-center;
+  }
+
+  &--image {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+  }
+}
+
+.wrapper {
+  @apply flex flex-col items-center gap-4;
+}
+
+.approach-text {
+  color: var(--purple);
+  @apply text-xl rounded-3xl border-solid border border-slate-300 p-8 text-center shadow-xl;
+}
+
+.practice {
+  @apply flex flex-col;
+  color: var(--purple);
+  
+  p {
+    width: 100%;
+    @apply text-xl;
   }
 }

@@ -10,7 +10,11 @@ module.exports = {
         about: 'url(/bg-about.png)',
         footer: 'url(/bg-footer.png)',
         first: 'url(/bg-1.png)',
-        why: 'url(/fundo.png)'
+        why: 'url(/fundo.png)',
+        version: 'url(/version.png)'
+      },
+      color: {
+        violeta: '#523d7f'
       }
     }
   }
