@@ -1,10 +1,14 @@
 import Link from 'next/link'
 
-const SubscribeButton = () => {
+type Props = {
+  buttonText: string
+}
+
+const SubscribeButton: React.FC<Props> = ({ buttonText }) => {
   return (
     <div className="subscribe">
       <Link href="">
-        <a>Quero me escrever agora!</a>
+        <a>{buttonText}</a>
       </Link>
     </div>
   )

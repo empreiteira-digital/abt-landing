@@ -26,7 +26,7 @@ const Association = () => {
             Somatic Experiencing® de resolução de trauma, a Associação é uma
             comunidade fecunda, pulsante e investida na abrangência do tema.
           </p>
-          <SubscribeButton />
+          <SubscribeButton buttonText="Quero me inscrever agora!" />
         </div>
       </div>
     </section>

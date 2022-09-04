@@ -169,3 +169,52 @@ body {
     }
   }
 }
+
+.footer {
+  &--section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply bg-footer py-10;
+  }
+
+  &--wrapper {
+    @apply flex flex-row items-center gap-12 text-center;
+  }
+}
+
+.header {
+  &--section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    @apply bg-header py-10;
+  }
+
+  &--wrapper {
+    @apply flex flex-col justify-center items-center gap-12;
+  }
+
+  &--logo {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    max-height: 100px;
+  }
+
+  &--heading {
+    color: var(--purple);
+    text-align: center;
+
+    h1,
+    h2 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      @apply font-bold;
+    }
+
+    p {
+      @apply text-2xl;
+    }
+  }
+}
