@@ -13,8 +13,9 @@ module.exports = {
         why: 'url(/fundo.png)',
         version: 'url(/version.png)'
       },
-      color: {
-        violeta: '#523d7f'
+      colors: {
+        violeta: '#523d7f',
+        limao: '#c1dc56'
       }
     }
   }

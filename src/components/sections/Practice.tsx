@@ -2,7 +2,7 @@ import SubscribeButton from '@/components/SubscribeButton'
 
 const Practice = () => {
   return (
-    <section className="practice bg-white pt-32 pb-16">
+    <section className="practice bg-white text-violeta pt-32 pb-16">
       <div className="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5 text-center">
         <h2 className="title">Quem pode praticar SE?</h2>
         <hr className="custom-hr" />

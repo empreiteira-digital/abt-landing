@@ -8,6 +8,8 @@ import Footer from '@/components/Footer'
 import Versions from '@/components/sections/Versions'
 import Approach from '@/components/sections/Approach'
 import Practice from '@/components/sections/Practice'
+import TeacherSlide from '@/components/sections/TeacherSlider'
+import Course from '@/components/sections/Course'
 
 const Home = () => {
   return (
@@ -16,6 +18,7 @@ const Home = () => {
         <title>ABT Landing</title>
       </Head>
       <Header />
+      <Course />
       <SectionWrapper />
       <Approach />
       <div className="bg-white">
@@ -23,6 +26,7 @@ const Home = () => {
       </div>
       <Practice />
       <Versions />
+      <TeacherSlide />
       <Association />
       <InsideTheCourse />
       <FrequentAskedQuestions />

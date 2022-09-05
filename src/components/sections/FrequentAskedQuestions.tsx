@@ -43,7 +43,7 @@ const FrequentAskedQuestions = () => {
   ]
   return (
     <section id="questions">
-      <h2 className="white-title">FAQ</h2>
+      <h2 className="white-title font-bold">FAQ</h2>
       <div
         id="accordion-collapse"
         className="collapse-section"
