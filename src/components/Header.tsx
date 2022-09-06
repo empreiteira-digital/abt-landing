@@ -19,7 +19,7 @@ const Header = () => {
             contribuir para a sua vida e a de seus clientes.
           </p>
           <div className="flex justify-center my-8">
-            <ReactPlayer url="https://www.youtube.com/watch?v=ysz5S6PUM-U" />
+            <ReactPlayer url="https://www.youtube.com/watch?v=O9xj4VmV2CQ" />
           </div>
           <p className="max-w-[700px] mb-4">
             Entre Agora e entenda como o Método SE se aplica terapeuticamente
