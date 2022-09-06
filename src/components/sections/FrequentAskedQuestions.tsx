@@ -29,16 +29,6 @@ const FrequentAskedQuestions = () => {
       id: 15,
       question: 'Política para mudanças de turmas',
       answer: ''
-    },
-    {
-      id: 16,
-      question: 'Valores e opções de pagamentos para módulos presenciais',
-      answer: ''
-    },
-    {
-      id: 17,
-      question: 'Valores e opções de pagamentos para módulos online',
-      answer: ''
     }
   ]
   return (
