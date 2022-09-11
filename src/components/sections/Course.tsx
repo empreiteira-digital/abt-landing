@@ -12,7 +12,7 @@ const Course = () => {
           Entrando na Formação em SE™, você terá acesso:
         </h4>
         <div className="course--box-wrapper">
-          <div className="course--box">
+          <div className="course--box even">
             <span className="font-semibold">Programa de Prevenção</span> a fim
             de capacitar mais e mais pessoas a prestar socorro em situações
             críticas, bem como a aprender a se proteger e a zelar pelo próprio

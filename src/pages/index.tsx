@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@/components/Header'
 import SectionWrapper from '@/components/sections/SectionWrapper'
-import InsideTheCourse from '@/components/sections/InsideTheCourse'
+import CourseModules from '@/components/sections/CourseModules'
 import FrequentAskedQuestions from '@/components/sections/FrequentAskedQuestions'
 import Association from '@/components/sections/Association'
 import Footer from '@/components/Footer'
@@ -28,7 +28,7 @@ const Home = () => {
       <Versions />
       <TeacherSlide />
       <Association />
-      <InsideTheCourse />
+      <CourseModules />
       <FrequentAskedQuestions />
       <Footer />
     </main>
