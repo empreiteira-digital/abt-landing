@@ -18,7 +18,7 @@ const Course = () => {
             críticas, bem como a aprender a se proteger e a zelar pelo próprio
             equilíbrio em contextos de exposição ao trauma e a seus efeitos.
           </div>
-          <div className="course--box">
+          <div className="course--box odd">
             <span className="font-semibold">
               Profissionais Altamente Qualificados.
             </span>
@@ -27,13 +27,13 @@ const Course = () => {
             <span className="font-semibold">SE™ – Somatic Experiencing®</span>{' '}
             (Experiência Somática, em tradução livre)
           </div>
-          <div className="course--box">
+          <div className="course--box even">
             <span className="font-semibold">Certificação internacional.</span>
             SEI (Somatic Experiencing® International) é o instituto
             norte-americano que detém os direitos de ensino e certificação deste
             método no mundo todo.
           </div>
-          <div className="course--box">
+          <div className="course--box odd">
             <span className="font-semibold">
               Professores praticantes do método.
             </span>
@@ -44,7 +44,7 @@ const Course = () => {
             um dos assuntos mais desafiadores, cruciais e urgentes da
             atualidade.
           </div>
-          <div className="course--box">
+          <div className="course--box even">
             <span className="font-semibold">
               Profissionais altamente especializados.
             </span>
@@ -53,7 +53,7 @@ const Course = () => {
             variadas manifestações e intensidades sintomáticas que esse
             transtorno pode assumir.
           </div>
-          <div className="course--box">
+          <div className="course--box odd">
             <span className="font-semibold">Comunicação e Inovação.</span>
             Todos em um esforço conjunto de disseminar conhecimentos e
             informações, expandindo a compreensão e desfazendo mitos sobre o

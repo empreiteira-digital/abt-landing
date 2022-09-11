@@ -314,17 +314,56 @@ body {
     background-image: url('/bg-version.png'), linear-gradient(0deg, rgba(67,77,120,1) 0%, rgba(82,61,127,1) 50%, rgba(82,61,127,1) 80%, rgba(82,61,127,1) 100%);
     background-repeat: no-repeat;
     background-position: bottom;
+    overflow: hidden;
     @apply pb-28;
   }
 
   &--box-wrapper {
+    z-index: 2;
     @apply flex flex-col gap-4 mt-16;
   }
+}
 
-  &--box {
-    width: 100%;
-    max-width: 900px;
-    background-image: linear-gradient(#4e3f7c, #37496a);
-    @apply text-white text-xl p-8 relative rounded-lg;
+.course--box {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  background-image: linear-gradient(#4e3f7c, #37496a);
+  color: #fff;
+  padding: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  border-radius: 0.5rem;
+}
+
+.even::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, #000000 43.08%, #000000 99.99%);
+  filter: blur(20px);
+  width: 60%;
+  height: 30%;
+  bottom: -4px;
+  right: -1px;
+  z-index: -1;
+}
+
+.odd::after {
+  content: "";
+  position: absolute;
+  background: linear-gradient(90deg, #000000 0%, #000000 43.08%, rgba(0, 0, 0, 0) 99.99%);
+  filter: blur(20px);
+  width: 60%;
+  height: 30%;
+  bottom: -6px;
+  left: 3px;
+  z-index: -1;
+}
+
+.question--answer {
+  @apply p-5 font-light border rounded-lg border-gray-400 dark:border-gray-700 dark:bg-gray-900 text-white;
+
+  p {
+    @apply md:text-xl mb-4;
   }
 }
