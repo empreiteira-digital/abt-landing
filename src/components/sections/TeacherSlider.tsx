@@ -30,6 +30,30 @@ const TeacherSlide = () => {
       name: 'Irene Tranjtenberg',
       biography:
         '<p>Psicóloga clínica, formada em Orgonoterapia Caractero-Analítica com o próprio Federico Navarro, Irene tem 15 anos de experiência em massagem reichiana, e é também formada em EMDR, atuando como facilitadora dos treinamentos deste método. É SEP (Somatic Experiencing® Practitioner), professora dos níveis Iniciante e Intermediário do curso de formação em SE, bem como provedora e supervisora individual e em grupo em todos os níveis.</p>'
+    },
+    {
+      id: 5,
+      name: 'Irene Tranjtenberg',
+      biography:
+        '<p>Psicóloga clínica, formada em Orgonoterapia Caractero-Analítica com o próprio Federico Navarro, Irene tem 15 anos de experiência em massagem reichiana, e é também formada em EMDR, atuando como facilitadora dos treinamentos deste método. É SEP (Somatic Experiencing® Practitioner), professora dos níveis Iniciante e Intermediário do curso de formação em SE, bem como provedora e supervisora individual e em grupo em todos os níveis.</p>'
+    },
+    {
+      id: 6,
+      name: 'Irene Tranjtenberg',
+      biography:
+        '<p>Psicóloga clínica, formada em Orgonoterapia Caractero-Analítica com o próprio Federico Navarro, Irene tem 15 anos de experiência em massagem reichiana, e é também formada em EMDR, atuando como facilitadora dos treinamentos deste método. É SEP (Somatic Experiencing® Practitioner), professora dos níveis Iniciante e Intermediário do curso de formação em SE, bem como provedora e supervisora individual e em grupo em todos os níveis.</p>'
+    },
+    {
+      id: 7,
+      name: 'Irene Tranjtenberg',
+      biography:
+        '<p>Psicóloga clínica, formada em Orgonoterapia Caractero-Analítica com o próprio Federico Navarro, Irene tem 15 anos de experiência em massagem reichiana, e é também formada em EMDR, atuando como facilitadora dos treinamentos deste método. É SEP (Somatic Experiencing® Practitioner), professora dos níveis Iniciante e Intermediário do curso de formação em SE, bem como provedora e supervisora individual e em grupo em todos os níveis.</p>'
+    },
+    {
+      id: 8,
+      name: 'Irene Tranjtenberg',
+      biography:
+        '<p>Psicóloga clínica, formada em Orgonoterapia Caractero-Analítica com o próprio Federico Navarro, Irene tem 15 anos de experiência em massagem reichiana, e é também formada em EMDR, atuando como facilitadora dos treinamentos deste método. É SEP (Somatic Experiencing® Practitioner), professora dos níveis Iniciante e Intermediário do curso de formação em SE, bem como provedora e supervisora individual e em grupo em todos os níveis.</p>'
     }
   ]
 
