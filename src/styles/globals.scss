@@ -79,8 +79,10 @@ body {
   font-size: 1.5rem;
   text-transform: uppercase;
 
-  @apply flex items-center justify-between w-full py-7 px-10 font-medium text-left rounded-lg my-8 text-white;
+  @apply flex items-center justify-between w-full py-4 md:py-7 px-10 font-medium text-left rounded-lg my-4 md:my-8 text-white text-sm md:text-2xl;
 }
+
+// flex items-center justify-center w-full  px-10 font-medium rounded-lg  bg-white text-sm md:text-2xl
 
 #inside {
   background-color: #fff;
@@ -142,10 +144,10 @@ body {
 
   &--description {
     background: rgb(82,61,127);
-    background: linear-gradient(90deg, rgba(82,61,127,0.6) 8%, rgba(82,61,127,1) 48%, rgba(67,77,120,0.3085609243697479) 100%);
-    -webkit-backdrop-filter: blur(1px);
-    backdrop-filter: blur(1px);
-    @apply container mx-auto xl:px-56 py-10 mt-5 text-white;
+    background: linear-gradient(90deg, rgba(82,61,127,1) 8%, rgba(82,61,127,1) 48%, rgba(67,77,120,1) 100%);
+    -webkit-backdrop-filter: blur(2em);
+    backdrop-filter: blur(2em);
+    @apply container max-w-[1000px] mx-auto mt-5 text-white rounded-2xl;
 
     p {
       @apply p-12 text-center rounded-sm;
