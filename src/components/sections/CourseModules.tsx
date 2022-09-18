@@ -7,7 +7,7 @@ const CourseModules = () => {
     {
       id: 1,
       title: 'Iniciante 1, 2 e 3',
-      image: '/modules/modulo-1.png',
+      image: '/images/modules/modulo-1.png',
       mediaScreen: {
         default: {
           width: 'w-[100%]',
@@ -22,7 +22,7 @@ const CourseModules = () => {
     {
       id: 2,
       title: 'Intermediário 1, 2 e 3',
-      image: '/modules/modulo-2.png',
+      image: '/images/modules/modulo-2.png',
       mediaScreen: {
         default: {
           width: 'w-[100%]',
@@ -37,7 +37,7 @@ const CourseModules = () => {
     {
       id: 3,
       title: 'Avançado 1 e 2',
-      image: '/modules/modulo-3.png',
+      image: '/images/modules/modulo-3.png',
       mediaScreen: {
         default: {
           width: 'w-[100%]',

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer--wrapper">
         <div className="about--logo">
           <Image
-            src="/about-logo.png"
+            src="/images/about-logo.png"
             alt="logo"
             width={800}
             height={600}
@@ -19,7 +19,7 @@ const Footer = () => {
           <Link href="https://www.facebook.com/traumatemcura">
             <a>
               <Image
-                src="/icons/fb.png"
+                src="/images/icons/fb.png"
                 alt="logo"
                 width={80}
                 height={80}
@@ -31,7 +31,7 @@ const Footer = () => {
           <Link href="https://www.instagram.com/traumatemcura/">
             <a>
               <Image
-                src="/icons/ig.png"
+                src="/images/icons/ig.png"
                 alt="logo"
                 width={80}
                 height={80}
@@ -43,7 +43,7 @@ const Footer = () => {
           <Link href="https://www.youtube.com/channel/UCUITWsln8F-FlrauMq1x61Q">
             <a>
               <Image
-                src="/icons/yt.png"
+                src="/images/icons/yt.png"
                 alt="logo"
                 width={80}
                 height={80}
@@ -55,7 +55,7 @@ const Footer = () => {
           <Link href="">
             <a>
               <Image
-                src="/icons/lkdn.png"
+                src="/images/icons/lkdn.png"
                 alt="logo"
                 width={80}
                 height={80}
@@ -67,7 +67,7 @@ const Footer = () => {
           <Link href="">
             <a>
               <Image
-                src="/icons/google.png"
+                src="/images/icons/google.png"
                 alt="logo"
                 width={80}
                 height={80}

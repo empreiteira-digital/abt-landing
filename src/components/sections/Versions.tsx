@@ -9,7 +9,7 @@ const Versions = () => {
         <h3>Como acontecem os cursos?</h3>
         <div className="version--image">
           <Image
-            src="/image-course-version.png"
+            src="/images/image-course-version.png"
             alt="logo"
             width={700}
             height={220}

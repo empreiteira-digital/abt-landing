@@ -7,7 +7,7 @@ const Association = () => {
       <div className="about--wrapper container mx-auto">
         <div className="about--logo">
           <Image
-            src="/about-logo.png"
+            src="/images/about-logo.png"
             alt="logo"
             width={800}
             height={600}

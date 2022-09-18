@@ -4,7 +4,12 @@ const CheckoutVersion2 = () => {
   return (
     <div className="checkout--wrapper">
       <div className="checkout--image">
-        <Image src="/checkout-v2.png" alt="Checkout" width={500} height={55} />
+        <Image
+          src="/images/checkout-v2.png"
+          alt="Checkout"
+          width={500}
+          height={55}
+        />
       </div>
     </div>
   )

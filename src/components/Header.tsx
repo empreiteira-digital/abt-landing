@@ -9,7 +9,12 @@ const Header = () => {
     <section className="header--section mx-4 lg:mx-0">
       <div className="header--wrapper container mx-auto">
         <div className="header--logo">
-          <Image src="/about-logo.png" alt="logo" width={400} height={119} />
+          <Image
+            src="/images/about-logo.png"
+            alt="logo"
+            width={400}
+            height={119}
+          />
         </div>
         <div className="header--heading">
           <h1>Inscreva-se na formação</h1>
