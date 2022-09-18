@@ -251,11 +251,11 @@ body {
   }
 
   &--wrapper {
-    @apply flex flex-col justify-center items-center gap-12;
+    @apply flex flex-col justify-center items-center gap-4 lg:gap-12 px-4;
 
     h3,
     p {
-      @apply text-white;
+      @apply text-white text-center;
     }
 
     h3 {

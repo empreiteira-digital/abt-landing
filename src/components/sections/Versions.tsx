@@ -21,7 +21,9 @@ const Versions = () => {
         </p>
         <div className="wrapper">
           <SubscribeButton buttonText="Quero me inscrever agora!" />
-          <CheckoutVersion1 />
+          <div className="mt-4">
+            <CheckoutVersion1 />
+          </div>
         </div>
       </div>
     </section>
