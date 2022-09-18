@@ -2,5 +2,9 @@
 
 module.exports = {
   reactStrictMode: true,
-  output: 'standalone'
+  output: 'standalone',
+  images: {
+    loader: 'akamai',
+    path: ''
+  }
 }
