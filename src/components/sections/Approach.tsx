@@ -4,7 +4,7 @@ const Approach = () => {
   return (
     <section className="bg-white pt-16 pb-16">
       <div className="relative max-w-7xl mx-auto px-4 focus:outline-none sm:px-3 md:px-5">
-        <h2 className="title">Como a abordagem SE atua?</h2>
+        <h2 className="title">Como a abordagem SE™ atua?</h2>
         <hr className="custom-hr" />
         <div className="cards grid grid-cols-1 gap-6 lg:gap-8 sm:grid-cols-2 lg:grid-cols-3 py-10">
           <div className="approach-text">

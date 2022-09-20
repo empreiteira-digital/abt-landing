@@ -18,7 +18,7 @@ const Header = () => {
         </div>
         <div className="header--heading">
           <h1>Inscreva-se na formação</h1>
-          <h2 className="uppercase">Método Somatic Experiencing</h2>
+          <h2 className="uppercase">Método Somatic Experiencing®</h2>
           <p className="max-w-[700px]">
             Assista o vídeo e saiba mais sobre o Método e como ele pode
             contribuir para a sua vida e a de seus clientes.
@@ -31,7 +31,7 @@ const Header = () => {
             />
           </div>
           <p className="max-w-[700px] mb-4">
-            Entre Agora e entenda como o Método SE se aplica terapeuticamente
+            Entre Agora e entenda como o Método SE™ se aplica terapeuticamente
           </p>
           <SubscribeButton buttonText="Começar minha jornada" />
         </div>

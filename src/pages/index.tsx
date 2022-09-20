@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <main>
       <Head>
-        <title>ABT Landing</title>
+        <title>Método Somatic Experiencing</title>
       </Head>
       <Header />
       <Course />
