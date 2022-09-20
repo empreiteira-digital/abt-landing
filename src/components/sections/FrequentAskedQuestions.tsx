@@ -1,5 +1,7 @@
+import Questions from './Questions'
+
 const FrequentAskedQuestions = () => {
-  const questions = [
+  const faqs = [
     {
       id: 10,
       question: 'Formas de pagamento',
@@ -45,30 +47,8 @@ const FrequentAskedQuestions = () => {
         className="collapse-section"
         data-accordion="collapse"
       >
-        {questions.map((question) => (
-          <div key={question.id}>
-            <h2 id={`accordion-collapse-heading-${question.id}`}>
-              <button
-                type="button"
-                className="collapse-title"
-                data-accordion-target={`#accordion-collapse-body-${question.id}`}
-                aria-expanded="false"
-                aria-controls={`accordion-collapse-body-${question.id}`}
-              >
-                <span>{question.question}</span>
-              </button>
-            </h2>
-            <div
-              id={`accordion-collapse-body-${question.id}`}
-              className="hidden"
-              aria-labelledby={`accordion-collapse-heading-${question.id}`}
-            >
-              <div
-                className="question--answer"
-                dangerouslySetInnerHTML={{ __html: question.answer }}
-              ></div>
-            </div>
-          </div>
+        {faqs.map((faq) => (
+          <Questions key={faq.id} question={faq.question} answer={faq.answer} />
         ))}
       </div>
     </section>

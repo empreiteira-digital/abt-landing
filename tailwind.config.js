@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        header: 'url(/bg-header.png)',
-        about: 'url(/bg-about.png)',
-        footer: 'url(/bg-footer.png)',
-        first: 'url(/bg-1.png)',
-        why: 'url(/fundo.png)',
-        version: 'url(/version.png)'
+        header: 'url(/images/bg-header.png)',
+        about: 'url(/images/bg-about.png)',
+        footer: 'url(/images/bg-footer.png)',
+        first: 'url(/images/bg-1.png)',
+        why: 'url(/images/fundo.png)',
+        version: 'url(/images/version.png)'
       },
       colors: {
         violeta: '#523d7f',
