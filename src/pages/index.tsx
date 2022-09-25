@@ -10,10 +10,11 @@ import Approach from '@/components/sections/Approach'
 import Practice from '@/components/sections/Practice'
 import TeacherSlide from '@/components/sections/TeacherSlider'
 import Course from '@/components/sections/Course'
+import WhatsApp from '@/components/WhatsApp'
 
 const Home = () => {
   return (
-    <main>
+    <main className="relative">
       <Head>
         <title>Método Somatic Experiencing</title>
       </Head>
@@ -31,6 +32,7 @@ const Home = () => {
       <CourseModules />
       <FrequentAskedQuestions />
       <Footer />
+      <WhatsApp />
     </main>
   )
 }

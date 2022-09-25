@@ -24,7 +24,7 @@ const Course = () => {
             <div className="text--wrapper">
               <span className="font-semibold">
                 Profissionais Altamente Qualificados.
-              </span>
+              </span>{' '}
               Formada principalmente por profissionais de saúde, todos
               especialistas ou em processo de especialização pelo método{' '}
               <span className="font-semibold">SE™ – Somatic Experiencing®</span>{' '}
@@ -33,7 +33,7 @@ const Course = () => {
           </div>
           <div className="course--box course-card-even course-card-3 even">
             <div className="text--wrapper">
-              <span className="font-semibold">Certificação internacional.</span>
+              <span className="font-semibold">Certificação internacional.</span>{' '}
               SEI (Somatic Experiencing® International) é o instituto
               norte-americano que detém os direitos de ensino e certificação
               deste método no mundo todo.
@@ -43,7 +43,7 @@ const Course = () => {
             <div className="text--wrapper">
               <span className="font-semibold">
                 Professores praticantes do método.
-              </span>
+              </span>{' '}
               Os associados da ABT são terapeutas praticantes de SE™, entre
               eles, professores do curso de formação, provedores e supervisores
               de sessões para certificação no método, assistentes de classe e
@@ -56,7 +56,7 @@ const Course = () => {
             <div className="text--wrapper">
               <span className="font-semibold">
                 Profissionais altamente especializados.
-              </span>
+              </span>{' '}
               Todos comprometidos em levar alívio e cura para pessoas que vieram
               a desenvolver o Transtorno de Estresse Pós-Traumático, nas mais
               variadas manifestações e intensidades sintomáticas que esse
@@ -65,7 +65,7 @@ const Course = () => {
           </div>
           <div className="course--box course-card-odd course-card-6 odd">
             <div className="text--wrapper">
-              <span className="font-semibold">Comunicação e Inovação.</span>
+              <span className="font-semibold">Comunicação e Inovação.</span>{' '}
               Todos em um esforço conjunto de disseminar conhecimentos e
               informações, expandindo a compreensão e desfazendo mitos sobre o
               trauma.
