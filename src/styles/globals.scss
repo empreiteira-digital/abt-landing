@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 $c: rgb(221, 237, 157);
+$purple: #523d7f;
+$greeny: #c1dc56;
 
 body {
   font-family: 'Poppins', sans-serif;
@@ -446,4 +448,12 @@ body {
 .course-card-6::before {
   content: url('/images/course-icons/icon-6.png');
   top: 5px;
+}
+
+.swiper {
+  padding: 0 3rem!important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: $purple!important
 }

@@ -14,7 +14,7 @@ const Approach = () => {
             e do sistema nervoso de processar estes eventos estressantes.
           </div>
           <div className="approach-text">
-            A abordagem SE™ atua sobre o
+            A abordagem SE™ atua sobre o{' '}
             <b>comportamento do sistema nervoso autônomo</b>, por meio da
             conscientização das sensações corporais relacionadas à situação
             traumática.

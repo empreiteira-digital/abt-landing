@@ -1,5 +1,5 @@
-import { Pagination } from 'swiper'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import { Navigation } from 'swiper'
 import 'swiper/css'
 import 'swiper/css/navigation'
 import 'swiper/css/pagination'
@@ -15,13 +15,11 @@ const TeacherSlide = () => {
         <hr className="custom-hr" />
         <div className="hidden md:block">
           <Swiper
-            modules={[Pagination]}
+            navigation={true}
+            modules={[Navigation]}
             spaceBetween={20}
             slidesPerView={3}
-            pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
-            className="mt-10 mb-3"
+            className="mt-10 mb-3 px-10"
           >
             {teachers.map((teacher) => (
               <SwiperSlide
@@ -47,13 +45,11 @@ const TeacherSlide = () => {
         </div>
         <div className="block md:hidden">
           <Swiper
-            modules={[Pagination]}
+            navigation={true}
+            modules={[Navigation]}
             spaceBetween={20}
             slidesPerView={1}
-            pagination={{ clickable: true }}
-            onSwiper={(swiper) => console.log(swiper)}
-            onSlideChange={() => console.log('slide change')}
-            className="mt-10 mb-3"
+            className="mt-10 mb-3 py-8"
           >
             {teachers.map((teacher) => (
               <SwiperSlide
