@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import SubscribeButton from '@/components/SubscribeButton'
 import dynamic from 'next/dynamic'
 
 const ReactPlayer = dynamic(() => import('react-player/lazy'), { ssr: false })
@@ -20,8 +19,8 @@ const Header = () => {
           <h1>Inscreva-se na formação</h1>
           <h2 className="uppercase">Método Somatic Experiencing®</h2>
           <p className="max-w-[700px]">
-            Assista o vídeo e saiba mais sobre o Método e como ele pode
-            contribuir para a sua vida e a de seus clientes.
+            Assista o vídeo e saiba como Método Somatic Experiencing® atua para
+            a libertação dos traumas psicológicos.
           </p>
           <div className="flex justify-center my-8 mx-4 lg:mx-0">
             <ReactPlayer
@@ -30,10 +29,6 @@ const Header = () => {
               url="https://www.youtube.com/watch?v=O9xj4VmV2CQ"
             />
           </div>
-          <p className="max-w-[700px] mb-4">
-            Entre Agora e entenda como o Método SE™ se aplica terapeuticamente
-          </p>
-          <SubscribeButton buttonText="Começar minha jornada" />
         </div>
       </div>
     </section>

@@ -4,7 +4,7 @@ type Props = {
   buttonText: string
 }
 
-const SubscribeButton: React.FC<Props> = ({ buttonText }) => {
+const TalkToUsButton: React.FC<Props> = ({ buttonText }) => {
   const [showModal, setShowModal] = useState(false)
 
   return (
@@ -21,12 +21,8 @@ const SubscribeButton: React.FC<Props> = ({ buttonText }) => {
           <div className="flex justify-center items-center overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
             <div className="relative w-[500px] my-6 mx-auto max-w-3xl">
               <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-                <div className="flex items-start justify-between p-5 pb-2 border-b border-solid border-gray-300 rounded-t ">
-                  <h3 className="form-heading">
-                    Ao preencher o formulário de PRÉ-INTERESSE, você será
-                    redirecionado (a) para o cronograma do curso e poderá
-                    escolher uma turma e efetuar a sua matrícula
-                  </h3>
+                <div className="flex items-start justify-between p-5 border-b border-solid border-gray-300 rounded-t ">
+                  <h3 className="form-heading">Fale conosco</h3>
                   <button
                     className="bg-transparent border-0 text-black float-right"
                     onClick={() => setShowModal(false)}
@@ -38,10 +34,10 @@ const SubscribeButton: React.FC<Props> = ({ buttonText }) => {
                 </div>
                 <div className="relative p-6 flex-auto">
                   <iframe
-                    src="/form.html"
-                    title="Formulário"
+                    src="/contact.html"
+                    title="Fale Conosco"
                     width="100%"
-                    height="650px"
+                    height="400px"
                   ></iframe>
                 </div>
               </div>
@@ -53,4 +49,4 @@ const SubscribeButton: React.FC<Props> = ({ buttonText }) => {
   )
 }
 
-export default SubscribeButton
+export default TalkToUsButton

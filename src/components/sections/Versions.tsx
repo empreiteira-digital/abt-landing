@@ -20,7 +20,7 @@ const Versions = () => {
           possibilidades.
         </p>
         <div className="wrapper">
-          <SubscribeButton buttonText="Quero me inscrever agora!" />
+          <SubscribeButton buttonText="Tenho interesse e quero ver a agenda de cursos" />
           <div className="mt-4">
             <CheckoutVersion1 />
           </div>

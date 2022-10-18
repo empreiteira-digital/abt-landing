@@ -16,7 +16,15 @@ const Home = () => {
   return (
     <main className="relative">
       <Head>
-        <title>Método Somatic Experiencing</title>
+        <title>
+          Formação Somatic Experiencing® - Associação Brasileira do Trauma -
+          Curso Trauma Psciológico - Trauma Emocional
+        </title>
+        <meta
+          name="description"
+          content="A ABT é a única entidade autorizada pelo SEI a ensinar o método Somatic Experiencing® no Brasil. SEI (Somatic Experiencing® International) é o instituto norte-americano que detém os direitos de ensino e certificação deste método no mundo todo.
+"
+        />
       </Head>
       <Header />
       <Course />

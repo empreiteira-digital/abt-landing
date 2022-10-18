@@ -22,7 +22,7 @@ const WhySection = () => {
       </div>
 
       <div className="wrapper mt-8 mb-4">
-        <SubscribeButton buttonText="Quero me inscrever agora!" />
+        <SubscribeButton buttonText="Tenho interesse e quero ver a agenda de cursos" />
       </div>
       <div className="bg-violeta pt-6 pb-4 px-4 lg:px-0 flex items-center justify-center">
         <CheckoutVersion2 />

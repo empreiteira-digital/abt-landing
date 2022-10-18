@@ -22,7 +22,7 @@ const Practice = () => {
           de traumatização.
         </p>
         <div className="wrapper">
-          <SubscribeButton buttonText="Quero me inscrever agora!" />
+          <SubscribeButton buttonText="Tenho interesse e quero ver a agenda de cursos" />
         </div>
       </div>
     </section>
